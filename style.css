@@ -1,73 +1,111 @@
-body{
+body {
     background-color: #fffaf4;
     margin: 0;
     font-family: "Dongle", sans-serif;
     font-size: 25px;
     font-style: normal;
 }
-header{
+
+header {
     text-align: center;
     background-color: white;
 }
-img{
+
+img {
     width: 200px;
     height: auto;
 }
-.bolos{
+
+.bolos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
     gap: 20px;
 }
-.card{
+
+.card {
     display: flex;
-    flex-direction: column; /* Organiza os itens um abaixo do outro */
-    align-items: center;    /* Centraliza tudo horizontalmente */
-    height: 100%;           /* Faz todos os cards da linha terem a mesma altura */
+    flex-direction: column;
+    /* Organiza os itens um abaixo do outro */
+    align-items: center;
+    /* Centraliza tudo horizontalmente */
+    height: 100%;
+    /* Faz todos os cards da linha terem a mesma altura */
     padding: 20px;
-    background-color: #fffcfe; /* Opcional: destaque o fundo do card */
+    background-color: #fffcfe;
+    /* Opcional: destaque o fundo do card */
     border-radius: 15px
 }
-.card:hover{
+
+.card:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
     cursor: pointer;
 }
-.card-image{
+
+.card-image {
     width: 200px;
     height: auto;
     object-fit: cover;
     border-radius: 15px;
 }
-.card-title{
+
+.card-title {
     text-align: center;
     margin-top: 10px;
 }
-h2{
+
+h2 {
     max-width: 200px;
     line-height: 0.7;
     color: #4B2C20;
-    min-height: 3em; /* Garante espaço para até 3 linhas de texto */
+    min-height: 3em;
+    /* Garante espaço para até 3 linhas de texto */
     display: flex;
     align-items: center;
     text-align: center;
     margin-bottom: 10px;
 }
+
 .contador-container {
-    margin-top: auto; /* Isso empurra o contador para a base do card */
-    padding-top: 15px; /* Garante um respiro entre o texto e os botões */
+    margin-top: auto;
+    /* Isso empurra o contador para a base do card */
+    padding-top: 15px;
+    /* Garante um respiro entre o texto e os botões */
     display: flex;
     align-items: center;
     gap: 10px;
 }
-button{
-    background-color: transparent;
-    font-family: "Dongle", sans-serif;
-    font-size: 50px;
-    border: none;
+
+.contador {
     color: #4B2C20;
+    font-size: 70px;
 }
-button:hover{
+
+button {
+    font-family: Dongle, sans-serif;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.btnAumentar {
+    background: none;
+    color: #F29F20;
+    border: 2px solid #F29F20;
+}
+
+.btnDiminuir {
+    background-color: #4B2C20;
+    color: #fffcfe;
+    border: none;
+}
+
+button:hover {
     cursor: pointer;
 }

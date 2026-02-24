@@ -6,7 +6,7 @@ containers.forEach(container => {
     const display = container.querySelector('.contador');
     const botaoAumentar = container.querySelector('.btnAumentar');
     const botaoDiminuir = container.querySelector('.btnDiminuir');
-    
+
     let valorAtual = 0;
 
     botaoAumentar.addEventListener('click', () => {
