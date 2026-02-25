@@ -15,6 +15,35 @@
     <header>
         <img src="images/LOGO BBOLUS.jpg" alt="BBOLUS Logo" class="logo">
     </header>
+    <div class="adicionar-bolo">
+        <label for="bolos">Bolo vendido:</label>
+        <select id="bolos" name="bolos">
+            <option value="cenouraCChocolate">Cenoura com cobertura de chocolate</option>
+            <option value="cenouraGChocolate">Cenoura com gotas de chocolate</option>
+            <option value="cenouraLaranja">Cenoura com laranja</option>
+            <option value="broaCoco">Broa de coco</option>
+            <option value="broaFuba">Broa de fubá</option>
+            <option value="broaMilho">Broa de milho</option>
+            <option value="chocolate">Chocolate</option>
+            <option value="formigueiro">Formigueiro</option>
+            <option value="iogurteFubaCanela">Iogurte com fubá e canela</option>
+            <option value="iogurteGChocolate">Iogurte com gotas de chocolate</option>
+            <option value="iogurteMesclado">Iogurte mesclado</option>
+            <option value="iogurteSimples">Iogurte simples</option>
+            <option value="coco">Coco</option>
+            <option value="limao">Limão</option>
+            <option value="laranja">Laranja</option>
+        </select>
+        <form>
+            <input type="checkbox" id="opcao1" name="estaPago" value="estaPago">
+            <label for="opcao1"> Bolo pago</label><br>
+            <input type="checkbox" id="opcao2" name="pagarNaHora" value="pagarNaHora" checked>
+            <label for="opcao2"> Pagar na hora</label>
+        </form>
+        <label for="comprador">Comprador:</label>
+        <input type="text" id="comprador" name="comprador" placeholder="Comprador do bolo">
+        <button id="adicionarBolo">Adicionar bolo</button>
+    </div>
     <script src="script.js"></script>
 </body>
 

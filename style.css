@@ -4,6 +4,7 @@ body {
     font-family: "Dongle", sans-serif;
     font-size: 25px;
     font-style: normal;
+    color: #654321;
 }
 
 header {
@@ -14,4 +15,41 @@ header {
 img {
     width: 200px;
     height: auto;
+}
+
+.adicionar-bolo {
+    border: 2px solid #FFA500;
+    text-align: center;
+    width: 30%;
+    margin-left: 480px;
+    margin-top: 20px;
+    border-radius: 15px;
+    transition: transform 0.5s ease;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.adicionar-bolo:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+
+form{
+    color: #1e1e1e;
+}
+
+button{
+    font-family: Dongle, sans-serif;
+    font-size: 20px;
+    color: beige;
+    background-color: #654321;
+    border: 2px solid #654321;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #3a2613;
+    border: 2px solid #3a2613;
+    cursor: pointer;
 }
